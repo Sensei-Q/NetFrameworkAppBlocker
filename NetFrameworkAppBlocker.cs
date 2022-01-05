@@ -29,13 +29,13 @@ public class NetFrameworkAppBlocker {
       int count = 100000;
       int i = 0;
       try {
-	      for( i = 0; i < count; i++ ) {
-	         string filename = Path.GetTempFileName();
-			}
-		} catch( IOException e ) {
-		   Console.WriteLine( "Error" );
-			Console.WriteLine( e.Message );
-			Console.WriteLine( "after {0} executions of the loop..", i );
-		}
+         for( i = 0; i < count; i++ ) {
+            string filename = Path.GetTempFileName();
+         }
+      } catch( IOException e ) {
+         Console.WriteLine( "Error" );
+         Console.WriteLine( e.Message );
+         Console.WriteLine( "after {0} executions of the loop..", i );
+      }
    }
 }
